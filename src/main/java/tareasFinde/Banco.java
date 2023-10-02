@@ -1,4 +1,6 @@
-package tareasFinde.tareaBanco;
+package tareasFinde;
+
+import tareasFinde.ASFI;
 
 public class Banco {
     private ASFI asfi;

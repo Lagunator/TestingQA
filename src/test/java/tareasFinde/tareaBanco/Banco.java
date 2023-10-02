@@ -1,4 +1,4 @@
-package TareasFinde.tareaBanco;
+package tareasFinde.tareaBanco;
 
 public class Banco {
     private ASFI asfi;
@@ -17,13 +17,6 @@ public class Banco {
             default:
                 return 0;
         }
-    }
-}
-
-public class ASFI {
-    public String getCategoria(String ci) {
-        // Lógica para obtener la categoría de la ASFI
-        // Retorna "A", "B", o "C" según la categoría
     }
 }
 

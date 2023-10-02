@@ -1,4 +1,4 @@
-package TareasFinde;
+package tareasFinde;
 
 public class Palindrome {
     public boolean isPalindrome(String word) {

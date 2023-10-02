@@ -1,4 +1,4 @@
-package TareasFinde;
+package tareasFinde;
 
 import static org.junit.jupiter.api.Assertions.*;
 

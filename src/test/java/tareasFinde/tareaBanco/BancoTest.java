@@ -1,10 +1,11 @@
-package TareasFinde.tareaBanco;
+package tareasFinde.tareaBanco;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.*;
+
 
 public class BancoTest {
     private Banco banco;
@@ -18,7 +19,6 @@ public class BancoTest {
 
     @Test
     public void testGetMaximoPrestamoCategoriaA() {
-        // Configura el comportamiento simulado del método getCategoria(ci)
         Mockito.when(mockASFI.getCategoria("454566")).thenReturn("A");
 
         int maxPrestamo = banco.getMaximoPrestamo("454566");
